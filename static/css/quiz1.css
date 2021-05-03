@@ -1,0 +1,30 @@
+body::before {
+  content: "";
+  position: fixed;
+  background: url("../img/map.png") center no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    color: black;
+    font-size: 50px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #C0C0C0;
+    margin-top: 32em;
+}
+
